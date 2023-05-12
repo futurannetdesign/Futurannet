@@ -303,8 +303,8 @@ a:hover {
 select {
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
-	-moz-appearance: none;
-	-ms-appearance: none;
+		-moz-appearance: none;
+		-ms-appearance: none;
     -o-appearance: none;
     appearance: none;
     background-image: url('../images/down-arrow.png');
@@ -368,8 +368,8 @@ select {
 }
 
 .navbar .logo-image img {
-    width: 133px;
-	height: 30px;
+  width: 180px;
+	height: 60px;
 }
 
 .navbar .logo-text {
@@ -801,6 +801,11 @@ select {
 
 .filter .element-item p strong {
 	color: #222222;
+}
+
+.img-fluid {
+	max-width: 100%;
+ 	height: 234px
 }
 
 
